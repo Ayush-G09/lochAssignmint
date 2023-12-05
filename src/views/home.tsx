@@ -112,7 +112,7 @@ function Home() {
           <div className="w-full px-[6%]">
             <div className="w-full h-[1px] bg-[#E5E5E680] mt-4" />
           </div>
-          <div className="w-full h-full flex-col lg:flex lg:flex-row bg-red-500">
+          <div className="w-full h-full flex-col lg:flex lg:flex-row">
             <div className="w-full lg:w-[20%] h-[30%] lg:h-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
