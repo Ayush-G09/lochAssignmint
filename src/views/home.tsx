@@ -112,8 +112,8 @@ function Home() {
           <div className="w-full px-[6%]">
             <div className="w-full h-[1px] bg-[#E5E5E680] mt-4" />
           </div>
-          <div className="w-full h-full flex-col lg:flex lg:flex-row">
-            <div className="w-full lg:w-[20%] h-[30%] lg:h-full flex items-center justify-center">
+          <div className="w-full h-full lg:h-auto flex-col lg:flex lg:flex-row">
+            <div className="w-full xl:w-[20%] h-[30%] xl:h-full flex items-center justify-center lg:pt-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="60"
@@ -129,7 +129,7 @@ function Home() {
             </div>
             <div className="w-full xl:w-[80%] h-[70%] xl:h-full flex relative">
               <div className="w-[30px] h-full backdrop-blur-[1px] absolute left-[0%]" />
-              <div className="w-full h-full flex items-center px-20 overflow-x-scroll gap-4 no-scrollbar scroll-smooth">
+              <div className="w-full h-full flex items-center px-20 lg:pt-2 overflow-x-scroll gap-4 no-scrollbar scroll-smooth">
                 {testimonials.map((data, index) => (
                   <TestimonialCard data={data} key={index} />
                 ))}
