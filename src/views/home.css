@@ -1,0 +1,18 @@
+.img1 {
+  background: url("../assets/asset-loch.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(75%);
+  }
+  to {
+    transform: translateX(-180%);
+  }
+}
+
+.slide-con {
+  animation: 10s slide infinite linear;
+}
